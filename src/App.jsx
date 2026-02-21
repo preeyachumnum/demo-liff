@@ -16,8 +16,8 @@ const App = () => {
     });
 
     // --- ตั้งค่า URL และ LIFF ID ของคุณที่นี่ ---
-    const GAS_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL";
-    const LIFF_ID = "YOUR_LIFF_ID";
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbzUbJ2h5q5s2zeb1pkD_vLtBy0Kvweh0qIui2Odojeqwk78-pCXXheVXmmdVPeAsVii/exec";
+    const LIFF_ID = "2009193472-HHe1w8OJ";
 
     useEffect(() => {
         const initLiff = async () => {
