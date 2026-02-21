@@ -69,10 +69,14 @@ const App = () => {
         setLoading(true);
 
         const payload = {
-            ...formData,
-            userId: profile?.userId || 'Unknown',
+            name: formData.fullName,
+            dob: formData.birthDate,
+            phone: formData.phone,
+            address: formData.address,
+            note: formData.note,
+            pdpa: formData.consent,
+            userId: profile?.userId || ' Unknown',
             displayName: profile?.displayName || 'Unknown',
-            timestamp: new Date().toISOString()
         };
 
         try {

@@ -19,7 +19,7 @@ function doPost(e) {
       data.phone || "",            
       data.address || "",          
       data.note || "",             
-      data.consent ? "ยอมรับ" : "ไม่ยอมรับ" 
+      data.consent ? "ยอมรับ" : "ไม่ยินยอม" 
     ];
     
     // เพิ่มข้อมูลลงแถวถัดไปของ Google Sheets
